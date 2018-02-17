@@ -15,6 +15,8 @@
 			parallaxFactor: 20
 
 	};
+    
+
 
 	skel.breakpoints({
 		xlarge: '(max-width: 1800px)',

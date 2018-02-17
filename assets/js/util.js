@@ -34,6 +34,18 @@
 
 	};
 
+    
+        // skills bar
+    jQuery(document).ready(function(){
+	jQuery('.skillbar').each(function(){
+		jQuery(this).find('.skillbar-bar').animate({
+			width:jQuery(this).attr('data-percent')
+		},6000);
+	});
+});
+    // skills bar
+    
+    
 	/**
 	 * Panel-ify an element.
 	 * @param {object} userConfig User config.
