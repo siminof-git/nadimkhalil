@@ -48,12 +48,7 @@
 		-webkit-text-size-adjust: none;
 	}
 
-/* skills bars */
-
-p{
-  color:#525252;
-  font-size:12px;
-}
+/* Start skills bars desktop*/
 
 .skillbar {
 	position:relative;
@@ -128,7 +123,56 @@ p{
 	color:rgba(0, 0, 0, 0.4);
 }
 
-/* skills bars */
+/* End skills bars desktop*/
+
+/* Start skills bars Mobile*/
+
+.skill-bar-container {
+    font-family: Helvetica;
+    font-size: 12px;
+    position: relative;
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 0.1em;
+    
+}
+    .skill-bar {
+        display: block;
+        border-radius: 4px;
+        height: 13px;
+        background-color: #d7edfa;
+ }
+    }
+    .skill-name {
+        position: absolute;
+        top: 4px;
+        left: 10px;
+        color: #333;
+        //font-weight: 600;
+    }
+    .skill-percent {
+      position: absolute;
+      top: 4px;
+      right: 10px;
+      color: #999;
+    }
+
+
+/* End skills bars Mobile*/
+
+@media all and (min-width: 768px) {
+  .hidden-desktop {
+    display: none !important;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .hidden-mobile {
+    display: none !important;
+  }
+}
+
+
 
 /* Box Model */
 
