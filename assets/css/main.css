@@ -22,6 +22,8 @@
 		display: block;
 	}
 
+
+
 	body {
 		line-height: 1;
 	}
@@ -47,6 +49,7 @@
 	body {
 		-webkit-text-size-adjust: none;
 	}
+    
 
 /* Start skills bars desktop*/
 
@@ -1843,9 +1846,16 @@
 
 	header p {
 		color: #b2b2b2;
+        font-style: italic;
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
+
+	header a {
+		color: #b2b2b2;
+        font-style: italic;
+	}
+
 
 	header h2 + p {
 		font-size: 1.25em;
@@ -2225,6 +2235,16 @@
 		padding-left: 1.25em;
 	}
 
+	ol.nadim {
+		list-style: decimal;
+		padding-left: 1.25em;
+        font-size: 0.8em;
+        line-height: 1.5em;
+        margin: 10px;
+	}
+
+
+
 		ol li {
 			padding-left: 0.25em;
 		}
@@ -2234,7 +2254,13 @@
 		margin: 0 0 2em 0;
 		padding-left: 1em;
 	}
-
+	ul.nadim {
+		list-style: circle;        
+		padding-left: 1.25em;
+        font-size: 0.8em;
+        line-height: 1.5em;
+        margin: 10px;
+	}
 		ul li {
 			padding-left: 0.5em;
 		}
@@ -2577,7 +2603,7 @@
 
 		.work-item h3 {
 			font-size: 1em;
-			margin: 0 0 0.5em 0;
+			margin: 0 0 0.1em 0;
 		}
 
 		.work-item p {
@@ -2585,6 +2611,8 @@
 			line-height: 1.5em;
 			margin: 0;
 		}
+
+
 
 /* Header */
 
@@ -3240,6 +3268,8 @@
 					display: none;
 				}
 
+
+
 		/* Footer */
 
 			#footer .copyright li {
@@ -3251,3 +3281,4 @@
 			}
 
 	}
+
